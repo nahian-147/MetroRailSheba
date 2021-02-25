@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProceedToPay"
+    tools:ignore="MissingDefaultResource">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="Train List"
+            app:titleTextColor="#fff" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/Train_No"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@color/colorPrimary">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_margin="15dp">
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/ic_directions_subway_black_24dp"
+                                android:layout_marginRight="10dp"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:id="@+id/textStationDetail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textColor="#fff"
+                                    android:textSize="18dp"
+                                    android:text="Uttara -- Shahbag "/>
+                                <TextView
+                                    android:id="@+id/textDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="26.12.2019"
+                                    android:textSize="18dp"
+                                    android:textColor="#fff"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginVertical="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="   Passenger(s) :"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <Spinner
+                            android:id="@+id/spinnerPassengerNumber"
+                            android:layout_width="180dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginVertical="20dp"
+                            android:entries="@array/Person"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_single"
+                        android:layout_width="0dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="7dp"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="0dp"
+                            android:text="Single Journey"
+                            android:background="@color/grey"
+                            android:textColor="#000"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="25dp"
+                            android:layout_marginVertical="55dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="@drawable/taka" />
+                        <TextView
+                            android:id="@+id/textPrice"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_marginVertical="50dp"
+                            android:layout_marginLeft="50dp"
+                            android:text="40"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginVertical="90dp"
+                            android:layout_marginLeft="20dp"
+                            android:text="Per person"
+                            android:textSize="20dp" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_double"
+                        android:layout_width="0dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="7dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="0dp"
+                            android:text="Return Journey"
+                            android:background="@color/grey"
+                            android:textColor="#000"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="25dp"
+                            android:layout_marginVertical="55dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="@drawable/taka" />
+                        <TextView
+                            android:id="@+id/textPriceDouble"
+                            android:layout_width="80dp"
+                            android:layout_height="30dp"
+                            android:layout_marginVertical="50dp"
+                            android:layout_marginLeft="40dp"
+                            android:text="80"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginVertical="90dp"
+                            android:layout_marginLeft="20dp"
+                            android:text="Per person"
+                            android:textSize="20dp" />
+                    </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:text="Total Amount"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="25dp"
+                            android:layout_marginVertical="55dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="@drawable/taka" />
+                        <TextView
+                            android:id="@+id/textPriceTotal"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp"
+                            android:layout_marginVertical="50dp"
+                            android:layout_marginLeft="40dp"
+                            android:text="40"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:textSize="25dp" />
+
+
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Ticket"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textPriceUnit"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="20dp"
+                            android:text="40"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_gravity="right"
+                            android:text="Passengers"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/textPassengerUnit"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:layout_marginVertical="50dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_gravity="right"
+                            android:text="*     1"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:textSize="25dp" />
+                    </android.support.v7.widget.CardView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:padding="15dp">
+
+                        <Button
+                            android:id="@+id/sendTextFile"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@color/colorPrimary"
+                            android:text="Proceed to Pay"
+                            android:textSize="20dp"
+                            android:textColor="#fff"
+                            android:layout_weight="1"
+                            android:padding="5dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView></ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+
+

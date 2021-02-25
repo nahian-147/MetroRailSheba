@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">MetroRail Sheba</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="spinner_title">Gender</string>
+    <string name="spinner_identify">Identification Number</string>
+    <string name="spinner_complaint">Complaint</string>
+    <string name="spinner_station">StationList</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="id_array">
+        <item> NID Number</item>
+        <item> Birth Certificate Number</item>
+    </string-array>
+
+    <string-array name="Person">
+        <item> 1</item>
+        <item> 2</item>
+        <item> 3</item>
+        <item> 4</item>
+    </string-array>
+
+    <string-array name="complaint_array">
+        <item> AC Problem</item>
+        <item> Seat Problem</item>
+        <item> Clean Service</item>
+        <item> Time Delay</item>
+    </string-array>
+
+    <string-array name="station_array">
+        <item> Uttara North</item>
+        <item> Uttara Center</item>
+        <item> Uttara South</item>
+        <item> Pallabi</item>
+        <item> Mirpur-11</item>
+        <item> Mirpur-10</item>
+        <item> KaziPara</item>
+        <item> ShewraPara</item>
+        <item> Agargaon</item>
+        <item> Bijoy Sarani</item>
+        <item> Farmgate</item>
+        <item> Kawran Bazar</item>
+        <item> Shahbag</item>
+        <item> Dhaka University</item>
+        <item> BD-Secretariat</item>
+        <item> Motijheel</item>
+        <item> Kamalapur</item>
+    </string-array>
+
+</resources>

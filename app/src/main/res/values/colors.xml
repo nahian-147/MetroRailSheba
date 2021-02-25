@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#157915</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D5102E</color>
+    <color name="grey">#bcbcbc</color>
+    <color name="dark_grey">#696969</color>
+    <color name="Marple">#43A047</color>
+    <color name="fest">#009688</color>
+    <color name="Violate">#673AB7</color>
+    <color name="Sky_blue">#CC2196F3</color>
+    <color name="Deep_Ylw">#FA622F</color>
+    <color name="Light_blue">#2D69D3</color>
+    <color name="Dark_blue">#3F51B5</color>
+    <color name="dark_blue_light">#302C2C</color>
+
+
+</resources>

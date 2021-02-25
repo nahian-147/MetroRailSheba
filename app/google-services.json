@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "620235797271",
+    "firebase_url": "https://metrorailsheba.firebaseio.com",
+    "project_id": "metrorailsheba",
+    "storage_bucket": "metrorailsheba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620235797271:android:0ad1113cf5d3eedef5bd52",
+        "android_client_info": {
+          "package_name": "com.wc.metrorailsheba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620235797271-lc0474via24bgnhsb0nbpjaqihjf8nu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wc.metrorailsheba",
+            "certificate_hash": "6b8d555555ac6c2b728921fb3b7abc1c22da8fac"
+          }
+        },
+        {
+          "client_id": "620235797271-o5s9pkgki2cm1d605cpihqtkv7jvjk76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRb2uk1YplfXqjAKAZ3Gi1RstYFpxI1M0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620235797271-o5s9pkgki2cm1d605cpihqtkv7jvjk76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
